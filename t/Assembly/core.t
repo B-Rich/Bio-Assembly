@@ -433,7 +433,7 @@ ok $asm_out->write_assembly( -scaffold => $scaf_in), 'writing in the TIGR format
 #
 
 SKIP: {
-    skip("MAQ tests failing, missing file, FIXME", 609);
+    #skip("MAQ tests failing, missing file, FIXME", 609);
 
     my $file = 'test.maq';
     ok $aio = Bio::Assembly::IO->new( -file => test_input_file($file),
